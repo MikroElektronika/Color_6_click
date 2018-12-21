@@ -1,0 +1,8 @@
+unit Click_Color6_config;
+
+uses Click_Color6_types;
+
+const
+    _COLOR6_I2C_CFG : array[1] of uint32_t = (_I2C_BITRATE_STANDARD_MODE); 
+    
+end.
